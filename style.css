@@ -1,0 +1,7 @@
+.wrapper {
+    height: 100vh; /*vieport widht*/
+    width: 94.3%;
+    background: url('./assets/images/Blow.png');
+    background-size: cover;
+    margin-left: 5.7%;
+}
