@@ -13,6 +13,14 @@
     background: red;
 }
 
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 900;
+    margin: 3.49% 0 0 5.5%;
+}
 
 .navbar{
     width: 480px;
