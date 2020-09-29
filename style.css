@@ -1,18 +1,19 @@
 .wrapper {
     height: 100vh; /*vieport widht*/
     width: 94.3%;
-    background: url('./assets/images/Blow.png');
+    background: url('./assets/images/Blow.png') ;
     background-size: cover;
     margin-left: 5.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     height: 120px;
-    background: red;
 }
-
 .logo{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -21,9 +22,8 @@
     font-weight: 900;
     margin: 3.49% 0 0 5.5%;
 }
-
 .navbar{
-    width: 480px;
+    width: 400px;
     margin: 3.35% 2% 0 0;
 }
 .navbar ul{
@@ -32,12 +32,40 @@
 }
 .navbar ul li a{
     display: flex;
-    width: 100px;
-    height: 41px;
-    border-radius: 20px;
-    background-color: #000000;
-    color: white;
-    text-decoration: none;
     align-items: center;
     justify-content: center;
+    width: 78px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: none;
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.navbar ul li a:hover{
+    background-color: #000000;
+    color: white;
+}
+.explore {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+.explore button{
+    width: 220px;
+    height: 45px;
+    background-color: #000000;
+    border-radius: 27px;
+    border-color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    color: #f0cdac;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
 }
