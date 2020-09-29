@@ -7,17 +7,19 @@
 }
 
 .header{
+    display: flex;
+    justify-content: space-between;
     height: 120px;
     background: red;
 }
 
+
 .navbar{
     width: 480px;
+    margin: 3.35% 2% 0 0;
 }
-
 .navbar ul{
     display: flex;
-    
     justify-content: space-between;
 }
 .navbar ul li a{
