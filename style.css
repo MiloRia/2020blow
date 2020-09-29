@@ -5,3 +5,29 @@
     background-size: cover;
     margin-left: 5.7%;
 }
+
+.header{
+    height: 120px;
+    background: red;
+}
+
+.navbar{
+    width: 480px;
+}
+
+.navbar ul{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.navbar ul li a{
+    display: flex;
+    width: 100px;
+    height: 41px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
