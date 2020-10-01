@@ -69,3 +69,25 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+.sidebar{
+    width: 5.7%;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+.sidebar p{
+    transform: rotate(-90deg);
+    width: 330px;
+    margin-left: -120px;
+    margin-top: 320px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #B3B3B3;
+}
+.sidebar .bold{
+    font-weight: 700;
+    color: #000000;
+}
