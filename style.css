@@ -71,6 +71,9 @@
 }
 
 .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 5.7%;
     background: #ffffff;
     position: fixed;
@@ -90,4 +93,8 @@
 .sidebar .bold{
     font-weight: 700;
     color: #000000;
+}
+.sidebar .get_in_toch{
+    margin-left: -110px;
+    margin-bottom: -150px;
 }
