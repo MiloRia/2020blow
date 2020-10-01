@@ -69,6 +69,11 @@
     text-align: center;
     text-transform: uppercase;
 }
+.explore button:hover{
+    -webkit-box-shadow: 0px 0px 39px -1px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 0px 39px -1px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 39px -1px rgba(0,0,0,0.68);
+}
 
 .sidebar{
     display: flex;
